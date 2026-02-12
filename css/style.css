@@ -1,0 +1,118 @@
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 15%;
+}
+
+header {
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    padding-top: 1.8%;
+    padding-left: 25%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 100px;
+}
+
+h3#block-2 {
+    font-size: 35px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+h3#block-3 {
+    font-size: 35px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+.block-1{
+    text-align: left;
+    font-size: 20px;
+    max-width: 45%;
+    padding-left: 25px;
+}
+
+.block-2 {
+    text-align: right;
+    font-size: 20px;
+    max-width: 70%;
+}
+
+img#avatar {
+    float: left;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 0.5%;
+}
+
+img#computer-img {
+    float: right;
+    margin-top: 250px;
+}
+
+img#screen-1 {
+    height: 500px;
+    border: 5px solid black;
+}
+
+img#screen-2 {
+    height: 475px;
+    border: 5px solid black;
+}
+
+img#screen-3 {
+    height: 300px;
+    border: 5px solid black;
+}
+
+img#screen-4 {
+    height: 300px;
+    border: 5px solid black;
+}
+
+img#QR-code {
+    height: 400px;
+}
+
+.description {
+    max-width: 75%;
+    font-size: 20px;
+    padding-left: 25%;
+}
+
+div#content-block-2 {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+div#content-block-3 {
+    display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 25%;
+}
+
+div#screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/bg-projects.jpeg");
+    filter: brightness(90%);
+    gap: 100px;
+    padding: 25px;
+    text-align: center;
+    border: 3px solid black;
+}
